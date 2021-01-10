@@ -1,0 +1,269 @@
+    /*Applies to All Webpages*/
+
+body{
+        width: 1200px;
+        text-align: center;
+        font-family: arial;
+        box-sizing: border-box;
+    }
+
+#contentBody{
+        background-color:white;
+        width: 1000px;
+        margin-left: 250px;
+        margin-right: 150px;
+    }
+
+nav{
+        width: 230px;
+        position: fixed;
+        left: 0;
+        float:left;
+    }
+
+ul {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding-right: 15px;
+        text-align: left;
+        list-style-type: none;
+    }
+
+li{
+        padding-top: 10px;
+        border-top: 1px solid black;
+        height: 45px;
+        font-family: Trebuchet MS;
+}
+
+li > a:link{
+        color: #5DA26F;
+        text-decoration: none;
+}
+
+li > a:visited{
+        color: #4988b6;
+
+}
+
+li > a:hover{
+        color: #A25D90;
+        font-weight: bold;
+        font-size: 120%;
+}
+
+li > a:active{
+        color: #E27F1D;
+}
+
+footer{
+        margin-top: 200px;
+}
+
+.twitter {
+	background: url('../images/social-media-icons-css-sprite.png') no-repeat -3px -62px;
+	width: 51px;
+	height: 51px;
+	margin: 5px 5px 5px 30px;
+	float: left;
+}
+
+.facebook{
+	background: url('../images/social-media-icons-css-sprite.png') no-repeat -60px -62px;
+	width: 51px;
+	height: 51px;
+	margin: 5px;
+	float: left;
+}
+
+.instagram {
+	background: url('../images/social-media-icons-css-sprite.png') no-repeat -117px -62px;
+	width: 51px;
+	height: 51px;
+	margin: 5px;
+	float: left;
+}
+
+a > div:hover{
+    border: 5px solid #1AE57C;
+}
+
+#refList{
+        text-align: left;
+        font-family: Times New Roman;
+        font-size: 13px;
+        clear: left;
+    }
+
+
+
+    /*For Index Page*/
+
+#introBody{
+        width: 1000px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+.spacedown{
+        height: 300px;
+    }
+
+#introParagraph{
+        height: 300px;
+        text-align: justify;
+        margin-left: 200px;
+        margin-right: 200px
+    }
+
+#TMstyle{
+        width: 250px;
+        height: 300px;
+        float: right;
+        margin-left: 20px;
+    }
+
+#SAstyle{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-right: 20px;
+    }
+
+#CFstyle{
+        width: 280px;
+        height: 300px;
+        float: left;
+        margin-right: 20px;
+
+    }
+
+#GSstyle{
+        width: 250px;
+        height: 300px;
+        float: right;
+        margin-left: 20px;
+    }
+
+a > img:hover{
+        border: 5px solid #1AE57C;
+}
+
+
+
+    /*For Timex Marlin Page*/
+
+div.center{
+        text-align: center;
+    }
+
+.contents{
+        text-align: justify;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+#TMXmusic{
+        margin-bottom: 20px;
+}
+
+#TMXintroPhoto{
+        width: 250px;
+        height: 300px;
+        float: left;
+        margin-bottom: 80px;
+        margin-top: 50px;"
+    }
+
+#TmxCompPhoto{
+        width: 200px;
+        height: 300px;
+        float: right;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+#TmxNewsAdPhoto{
+        width: 250px;
+        height: 350px;
+        float: left;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+
+    /*For Seiko Astron Page*/
+
+#SKAintrophoto{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-left: 60px;
+}
+
+#oldMovement{
+        width: 230px;
+        height: 230px;
+        float: right;
+        clear: right;
+        margin-left: 20px;
+}
+
+#quartzMovement{
+        float: left;
+        width: 300px;
+        height: 300px;
+        margin-top: 190px;
+        margin-right: 20px;
+}
+
+
+    /*For G-Shock Page*/
+
+#gshockintrophoto{
+        width: 250px;
+        height: 300px;
+        float: left;
+        margin-right: 20px;
+}
+
+
+#gshockinsides{
+        width: 330px;
+        height: 225px;
+        float: right;
+        margin-left: 20px;
+}
+
+
+#gshockcommercial{
+        float:left;
+        margin-right: 20px;
+}
+
+
+#gshockuser{
+        float: right;
+        margin-left: 20px;
+        width: 330px;
+        height: 225px;
+}
+
+
+#gshockwr{
+        margin-right: auto;
+        margin-left: auto;
+}
+    /*For Casio F91W Page*/
+
+#CF91introphoto{
+        width: 280px;
+        height: 300px;
+        float: left;
+        margin-left: 60px;
+}
+
+
+
+
